@@ -4,7 +4,6 @@ env:
   - IDEA_VERSION=IC-15.0.4
   - IDEA_VERSION=LATEST-EAP-SNAPSHOT
 jdk:
-- oraclejdk7
 - oraclejdk8
 script:
 - ./gradlew test -PideaVersion=$IDEA_VERSION
